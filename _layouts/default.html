@@ -8,20 +8,26 @@
   <link rel="stylesheet" href="{{site.baseurl}}/css/grids.css">
   <link rel="stylesheet" href="{{site.baseurl}}/css/type.css">
   <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow|Montserrat" rel="stylesheet">
 </head>
-<body class="scroll">
+<body>
 
-  <header class="push">
-    <i class="ib icon i-128">
-      <img src="{{site.baseurl}}/images/roninlogo.svg" alt="">
-    </i>
-    <nav class="right ib nav pad-t-2 pad-b-2">
-      <ul class="list-group-inline push-1-2">
-        <li class="list-group-item"><a class="giga" href="{{site.baseurl}}/">Home</a></li>
-        <li class="list-group-item"><a class="giga" href="{{site.baseurl}}/Work">Work</a></li>
-        <li class="list-group-item"><a class="giga" href="{{site.baseurl}}/About">About</a></li>
-        <li class="list-group-item"><a class="giga" href="{{site.baseurl}}/Contact">Contact</a></li>
+<div class="content">
+  <header class="grid masthead">
+    <div class="gutter-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <a href="{{site.baseurl}}/index">
+        <i class="icon i-128">
+          <img src="{{site.baseurl}}/images/roninlogo.svg" alt="">
+        </i>
+      </a>
+    </div>
+
+    <nav class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-1-2 pad-b-1-2 giga navigation">
+      <ul class="list-group-inline push-0">
+        <li class="gutter-1-2"><a class="" href="{{site.baseurl}}/">Home</a></li>
+        <li class="gutter-1-2"><a class="" href="{{site.baseurl}}/Work">Work</a></li>
+        <li class="gutter-1-2"><a class="" href="{{site.baseurl}}/About">About</a></li>
+        <li class="gutter-1-2"><a class="" href="{{site.baseurl}}/Contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -30,8 +36,10 @@
     {{content}}
   </main>
 
-  <footer class="">
-    <p class="pad-t-1-2 pad-b-1">© 2018 Jhon Tolentino</p>
+</div>
+
+  <footer class="footer">
+    <p class="island-1-2 milli">© 2018 Jhon Tolentino</p>
   </footer>
 </body>
 </html>
