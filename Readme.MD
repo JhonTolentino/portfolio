@@ -1,20 +1,12 @@
-name: "Ronin Tolentino"
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:500,700" rel="stylesheet">
-fonts:
-  primary: |
-    The primary typeface represents the hidden creativity that the designer holds.
+# Jhon Karl Adami Tolentino
 
-    Use the primary typeface for the body copy, it will help contrast the script style secondary font.
-  secondary: |
-    The secondary typeface represents the simplicity of the site.
+#### [karlai.ca](https://karlai.ca)
 
-    Use this typeface for headers so it will quickly inform the viewer of where and what they are looking at.
-colors:
-  primary: |
-    Use the primary color only for the background to help pop content to the forefront.
+Jhon Tolentino is a junior graphics and marketing officer at Laurier Optical, while attending Algonquin for web design to help improve is online persona. I believe that the user experience in any form be it print, mobile, web, package, or video needs to be absolutely top-notch before anything else.
 
-  secondary: |
-    Use the secondary color for headers to help slowly decrease the amount of attention they hold on pages.
+- **[hello@karlai.com](mailto:hello@karlai.com)
+- [GitHub](https://github.com/JhonTolentino)
+
 ---
 
-Spell Bound is your reliable only stop shop for everything concerning magic spells! We pride ourselves in meeting all our customers expectations and aspirations in the magic field!
+© Jhon Karl Adami Tolentino
