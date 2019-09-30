@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #0F1626;
+  --color-secondary: #AB9872;
+  --color-text: #F5F5F5;
+  --color-highlight: #FF555D;
+
+  --font-primary: "Alegreya Sans", sans-serif;
+  --font-secondary: "Bree Serif", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
