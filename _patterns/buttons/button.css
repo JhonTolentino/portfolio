@@ -19,7 +19,7 @@
   border-color: var(--color-text);
 }
 
-@media all and (max-width:30em) {
+@media all and (max-width:25em) {
   .btn {
     display: block;
     margin: 0.4em auto;
