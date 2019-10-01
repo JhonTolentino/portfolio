@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+}
+
+.text-block-bot-left {
+  color: var(--color-text);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.container:hover {
+
+}
