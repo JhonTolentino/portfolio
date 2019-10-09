@@ -11,3 +11,12 @@ a {
 a:hover {
   color: var(--color-highlight);
 }
+
+.micro {
+  color: var(--color-text);
+  padding-bottom: 1em;
+}
+
+.list-group-inline {
+  padding-top: 1em;
+}
