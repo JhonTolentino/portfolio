@@ -1,7 +1,7 @@
-h2,
-p {
+.card-text {
   margin: 0;
 }
+
 .container {
   position: relative;
 }
@@ -11,8 +11,4 @@ p {
   position: absolute;
   bottom: 20px;
   left: 20px;
-}
-
-.container:hover {
-
 }
