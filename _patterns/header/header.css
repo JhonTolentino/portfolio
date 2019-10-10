@@ -1,0 +1,10 @@
+.header {
+  background-color: var(--color-primary);
+  text-align: center;
+}
+
+.logo {
+  color: var(--color-text);
+  text-align: center;
+  text-decoration: none;
+}
