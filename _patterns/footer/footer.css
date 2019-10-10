@@ -4,15 +4,15 @@
   flex-shrink: 0;
 }
 
-a {
+.sc-icons {
   color: var(--color-text);
 }
 
-a:hover {
+.sc-icons:hover {
   color: var(--color-highlight);
 }
 
-.micro {
+.sticky-foot p.micro {
   color: var(--color-text);
   padding-bottom: 1em;
 }
