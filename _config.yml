@@ -1,5 +1,21 @@
 permalink: pretty
 theme: jekyll_patternbot
-
 patternbot:
+  title: "Karl.Ai"
+  description: |
+    My personal graphic design portfolio majoring in package and print design, minoring in UX and Ui design. With a slight interests in motion.
   font_url: "https://fonts.googleapis.com/css?family=Alegreya:400,700|Bree+Serif&display=swap"
+  colors:
+    background: "--color-primary"
+    accent: "--color-secondary"
+    patterns:
+      brand.logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Alegreya was chosen because it's a strong literature typeface that portrays strong harmonious text from diverse elements.
+    typefaces.secondary: |
+      Bree Serif was chosen for it's charming and versatile appearance that differentiates it from the primary.
+    colors.primary: |
+      The primary colour is a darker colour to help set a modern and professional mood. Should only be used for the background and headers.
+    colors.secondary: |
+      The secondary colour is an off-white to contrast information through-out the portfolio. Should be used for all the texts and buttons.
