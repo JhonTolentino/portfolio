@@ -6,7 +6,7 @@ patternbot:
     My personal graphic design portfolio majoring in package and print design, minoring in UX and Ui design. With a slight interests in motion.
   font_url: "https://fonts.googleapis.com/css?family=Alegreya:400,700|Bree+Serif&display=swap"
   colors:
-    background: "--color-primary"
+    background: "--color-text"
     accent: "--color-secondary"
     patterns:
       brand.logos: "--color-text"
