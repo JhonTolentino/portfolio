@@ -9,7 +9,7 @@ patternbot:
     background: "--color-primary"
     accent: "--color-secondary"
     patterns:
-      brand.logos: "--color-secondary"
+      brand.logos: "--color-text"
   rationales:
     typefaces.primary: |
       Alegreya was chosen because it's a strong literature typeface that portrays strong harmonious text from diverse elements.
@@ -18,4 +18,8 @@ patternbot:
     colors.primary: |
       The primary colour is a darker colour to help set a modern and professional mood. Should only be used for the background and headers.
     colors.secondary: |
-      The secondary colour is an off-white to contrast information through-out the portfolio. Should be used for all the texts and buttons.
+      The secondary colour is an brown used for less important elements for the website.
+    colors.highlight: |
+      The highlight colour is used to accentuate elements on the current webpage.
+    colors.text: |
+      As per it's namesake will be used mostly for the text but, will also be used for neutral state elements.
