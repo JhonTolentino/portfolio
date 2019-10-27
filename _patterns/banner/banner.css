@@ -1,0 +1,17 @@
+.banner {
+  background-color: var(--color-background);
+}
+
+.banner-title {
+  font-family: var(--font-secondary);
+  color: var(--color-text);
+}
+
+.banner-subtitle {
+  font-family: var(--font-secondary);
+  color: var(--color-background-lightest);
+}
+
+.banner-info {
+  color: var(--color-text);
+}
