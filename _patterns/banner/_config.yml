@@ -9,4 +9,4 @@ patterns:
         example: "UI and Ux Design"
       - name: text
         type: string
-        example: "Project focusing on providing a mobile application for solo female travellers to connect.
+        example: "Project focusing on providing a mobile application for solo female travellers to connect."
