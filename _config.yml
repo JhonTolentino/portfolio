@@ -4,7 +4,7 @@ patternbot:
   title: "Karl.Ai"
   description: |
     My personal graphic design portfolio majoring in package and print design, minoring in UX and Ui design. With a slight interests in motion.
-  font_url: "https://fonts.googleapis.com/css?family=Alegreya:400,700|Bree+Serif&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Raleway:500|Roboto+Slab:300&display=swap"
   colors:
     background: "--color-text"
     accent: "--color-secondary"
@@ -12,9 +12,9 @@ patternbot:
       brand.logos: "--color-text"
   rationales:
     typefaces.primary: |
-      Alegreya was chosen because it's a strong literature typeface that portrays strong harmonious text from diverse elements.
+      Raleway was chosen because it's bold and unique look while still being an elegnat typeface make it a strong partner to Roboto.
     typefaces.secondary: |
-      Bree Serif was chosen for it's charming and versatile appearance that differentiates it from the primary.
+      Roboto Slab has mechanical form that focuses on ensuring reading rhythm, this humanist approach is a good partner to the more elegant Raleway.
     colors.primary: |
       The primary colour is a darker colour to help set a modern and professional mood. Should only be used for the background and headers.
     colors.secondary: |
