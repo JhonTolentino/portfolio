@@ -1,11 +1,14 @@
 :root {
   --color-primary: #0F1626;
-  --color-secondary: #AB9872;
+  --color-secondary: #F1DABF;
   --color-text: #F5F5F5;
-  --color-highlight: #FF555D;
+  --color-highlight: #FF8811;
+  --color-background: #222629;
+  --color-background-lighter: #6B7276;
+  --color-background-lightest: #6B7070;
 
-  --font-primary: "Alegreya", serif;
-  --font-secondary: "Bree Serif", serif;
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Roboto Slab", serif;
 }
 
 html {
