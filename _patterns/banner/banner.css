@@ -2,7 +2,8 @@
   background-color: var(--color-background);
 }
 
-.banner-title {
+.banner-title,
+.hero-title {
   font-family: var(--font-secondary);
   color: var(--color-text);
 }
@@ -12,6 +13,23 @@
   color: var(--color-background-lightest);
 }
 
-.banner-info {
+.banner-info,
+.hero-text {
   color: var(--color-text);
+}
+
+.highlight {
+  color: var(--color-highlight);
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
 }
