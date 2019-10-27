@@ -1,0 +1,9 @@
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Lens Packaging"
+      - name: subheading
+        type: string
+        example: "package design⁠⁠⁠⁠ - user experience"
