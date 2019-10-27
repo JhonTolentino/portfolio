@@ -1,0 +1,6 @@
+patterns:
+  banner:
+    fields:
+      - name: button-text
+        type: string
+        example: "Submit"
