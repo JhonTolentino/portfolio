@@ -1,5 +1,4 @@
-.btn,
-.banner-btn {
+.btn {
   background-color: var(--color-primary);
   border-color: : var(--color-text);
   color: var(--color-text);
@@ -17,25 +16,25 @@
 
 .btn:hover {
   background-color: var(--color-text);
-  border-color: var(--color-primary);
+  border-color: var(--color-text);
   color: var(--color-primary);
 }
 
-.banner-btn {
-  background-color: var(--color-highlight);
-  border-color: : var(--color-text);
+.btn-ghost {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid var(--color-text);
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
   color: var(--color-text);
+  text-align: center;
+  transition: 0.15s;
 }
 
-.banner-btn:hover {
-  background-color: var(--color-text);
+.btn-ghost:hover {
   border-color: var(--color-highlight);
   color: var(--color-highlight);
-}
-
-@media all and (max-width:25em) {
-  .btn {
-    display: block;
-    margin: 0.4em auto;
-  }
 }
