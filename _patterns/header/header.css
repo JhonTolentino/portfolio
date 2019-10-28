@@ -4,7 +4,5 @@
 }
 
 .logo {
-  color: var(--color-text);
-  text-align: center;
-  text-decoration: none;
+  color: var(--color-highlight);
 }
