@@ -1,0 +1,9 @@
+patterns:
+  banner:
+    fields:
+      - name: heading
+      type: string
+      example: "Design Process"
+      - name: text
+      type: string
+      example: "Accompanied by reaserch and user submitted answers, we decided that this layout would be most effective for the application."
