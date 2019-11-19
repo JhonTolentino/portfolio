@@ -1,16 +1,17 @@
 .banner {
-  background-color: var(--color-background);
+  background-color: transparent;
+  margin: 1em 1em 2em;
 }
 
-.banner-title,
-.hero-title {
+.banner-title {
   font-family: var(--font-secondary);
   color: var(--color-text);
 }
 
+.hero-title,
 .banner-subtitle {
   font-family: var(--font-secondary);
-  color: var(--color-background-lightest);
+  color: var(--color-shadow);
 }
 
 .banner-info,
