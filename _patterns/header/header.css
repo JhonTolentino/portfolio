@@ -1,8 +1,8 @@
 .header {
-  background-color: var(--color-primary);
+  background-color: var(--color-background);
   text-align: center;
 }
 
 .logo {
-  color: var(--color-highlight);
+  color: var(--color-text);
 }
