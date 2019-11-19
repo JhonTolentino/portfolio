@@ -6,8 +6,8 @@ patternbot:
     My personal graphic design portfolio majoring in package and print design, minoring in UX and Ui design. With a slight interests in motion.
   font_url: "https://fonts.googleapis.com/css?family=Raleway:500|Roboto+Slab:300&display=swap"
   colors:
-    background: "--color-text"
-    accent: "--color-secondary"
+    background: "--color-background"
+    accent: "--color-primary"
     patterns:
       brand.logos: "--color-text"
   rationales:
