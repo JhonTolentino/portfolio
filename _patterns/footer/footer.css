@@ -1,7 +1,16 @@
 .sticky-foot {
-  background-color: var(--color-secondary);
+  background-color: var(--color-background);
   text-align: center;
   flex-shrink: 0;
+}
+
+.sticky-foot:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 5px;
+    border-top: 1px solid var(--color-primary);
 }
 
 .sc-icons {
