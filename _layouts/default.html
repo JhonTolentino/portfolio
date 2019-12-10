@@ -5,7 +5,7 @@
   <title>{{page.title}}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{{page.meta}}">
-  <link href="/css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:500|Roboto+Slab:300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,9 +13,9 @@
   {% pattern header/header %}
   {% pattern nav/nav-bar %}
   <main>
-      {{content}}
+    {{content}}
   </main>
-  {% pattern footer/sticky-footer %}
+  {% pattern footers/sticky-footer %}
 
 </body>
 </html>
