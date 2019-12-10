@@ -1,5 +1,20 @@
+title: "buttons"
+description: |
+  Buttons should be used only as a way to anchor attention to a specifc element elsewhere or to submit information.
+
 patterns:
-  banner:
+  button:
+    title: "button"
+    description: |
+      Default button to help anchor attention unto another element elsewhere.
+    fields:
+      - name: button-text
+        type: string
+        example: "Click Here!"
+  button-ghost:
+    title: "button-ghost"
+    description: |
+      Secondary button used to finalize an input, needed for when the button is not a promary focus of given process.
     fields:
       - name: button-text
         type: string
