@@ -1,0 +1,30 @@
+title: "banners"
+description:: |
+  Banners should be used at the top of most pages, they'll contain headers and breif info on what's to be expected on the given page.
+
+patterns:
+  hero-banner:
+    title: "hero-banner"
+    description: |
+      Default banner for pages that only require basic headers and text. Should always be at the top of it's given page.
+    fields:
+      - name: heading
+        type: string
+        example: "Welcome,"
+      - name: text
+        type: string
+        example: "Hello my name is Jhon Tolentino!"
+  banner:
+    title: "banner"
+    description: |
+      Secondary banner for pages that require more information on the page.
+    fields:
+      - name: heading
+        type: string
+        example: "Solo Travellers"
+      - name: subheading
+        type: string
+        example: "UI and Ux Design"
+      - name: text
+        type: string
+        example: "Project focusing on providing a mobile application for solo female travellers to connect."
