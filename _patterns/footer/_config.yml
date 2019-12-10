@@ -1,9 +1,0 @@
-patterns:
-  banner:
-    fields:
-      - name: heading
-        type: string
-        example: "User specific design and interface"
-      - name: copyright
-        type: string
-        example: "Copyright © 2019 , Karl.Ai"

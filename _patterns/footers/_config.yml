@@ -1,0 +1,16 @@
+title: "footers"
+description: |
+  Footers will always be the bottom of every page with info leading bakc to one of my social medias.
+
+patterns:
+  sticky-footer:
+    title: "sticky-footer"
+    description: |
+      Currently the only needed footer for the website, stays at the bottom of every screen.
+    fields:
+      - name: heading
+        type: string
+        example: "User specific design and interface"
+      - name: copyright
+        type: string
+        example: "Copyright © 2019 , Karl.Ai"
