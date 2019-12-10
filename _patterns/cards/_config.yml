@@ -1,5 +1,12 @@
+title: "cards"
+description: |
+  Cards should be used to briefly preview a more important element located elsewhere on the website.
+
 patterns:
-  banner:
+  card:
+    title: "card"
+    description: |
+      Default card for product page, this includes a categorizing headers of what is expected of certain case studies.
     fields:
       - name: heading
         type: string
@@ -7,3 +14,24 @@ patterns:
       - name: subheading
         type: string
         example: "package design⁠⁠⁠⁠ - user experience"
+      - name: image
+        widget: image
+        example: "/images/b2s-sketch.jpg"
+        media_library:
+          config:
+            multiple: true
+      - name: imaged
+        type: object
+        example: "/images/b2s-sketch.jpg"
+          source: "/images/"
+          type: ""
+  image-card:
+    title: "image-card"
+    description: |
+      Default image card, this is the pattern that will be used when show casing work throughout the website.
+    fields:
+      - name: "image"
+        type: "object"
+        example: "/images/b2s-sketch.jpg"
+          source: "/images/"
+          type: ""
