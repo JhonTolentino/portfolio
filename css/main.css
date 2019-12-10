@@ -6,3 +6,12 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.current {
+  color: var(--color-primary);
+}
