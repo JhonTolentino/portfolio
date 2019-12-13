@@ -16,8 +16,8 @@ html {
   color: var(--color-primary);
 }
 
-.border {
-  border: solid .5em var(--color-text);
+.tint {
+  background-color: var(--color-secondary);
 }
 
 .embed {
