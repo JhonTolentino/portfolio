@@ -20,17 +20,15 @@ patterns:
         media_library:
           config:
             multiple: true
-      - name: imaged
-        type: object
-        example: "/images/b2s-sketch.jpg"
-          source: "/images/"
-          type: ""
+      - name: link
+        type: string
+        example: "./back-to-school.html"
   image-card:
     title: "image-card"
     description: |
       Default image card, this is the pattern that will be used when show casing work throughout the website.
     fields:
-      - name: "image"
+      - name: "images"
         type: "object"
         example: "/images/b2s-sketch.jpg"
           source: "/images/"
