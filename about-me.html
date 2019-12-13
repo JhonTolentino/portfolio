@@ -1,13 +1,40 @@
 ---
 layout: default
 title: About Me
+meta: Some information about Jhon
 ---
 
 <div class="grid">
   <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-    {% pattern cards/image-card image="b2s-sketch.jpg" %}
+    {% pattern cards/image-card image="me.jpg" %}
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
     {% pattern banners/hero-banner heading="Hey There," text="I'm Jhon, a graphic designer focused on print and visual design. Send me an email anytime at karlai@gmail.com"%}
   </div>
 </div>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org"
+    "@type": "Website"
+    "name": "Karl.AI"
+    "author": {
+      "@type": "Person"
+      "@id": "#jhontolentino"
+    },
+    "description": "French fashion forward creative."
+    "@url": "https://karlai.ca/about-me"
+    "keywords": "About Me, Monochrome, Simple"
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org"
+    "@type": "Person"
+    "@id": "#jhontolentino"
+    "@name": "Jhon Tolentino"
+    "@email": "hey@karlai.com"
+    "@url": "https://karlai.ca"
+  }
+</script>

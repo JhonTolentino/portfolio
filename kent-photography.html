@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kent Photography
+meta: Website to help brand a local photgrapher
 ---
 
 <div class="grid">
@@ -11,17 +12,43 @@ title: Kent Photography
     {% pattern cards/image-card image="kent-sketch.jpg" %}
   </div>
   <div class="grid">
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 tint">
       {% pattern cards/image-card image="kent-logo.png" %}
     </div>
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 tint">
       {% pattern cards/image-card image="kent-banner.png" %}
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1 l-1 xl-1">
     {% pattern banners/hero-banner heading="Finals" text="For Kent Photography, we focused on creating a brand that wsa both sophisticated and modern. Mr.Kent's potential clients needed to understand what his specialization was from just the content." %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1 tint">
     {% pattern cards/image-card image="kent-computer.jpg" %}
   </div>
 </div>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org"
+    "@type": "Website"
+    "name": "Karl.AI"
+    "author": {
+      "@type": "Person"
+      "@id": "#jhontolentino"
+    },
+    "description": "Modern professional website for local photographer."
+    "@url": "https://karlai.ca/work/kent-photography"
+    "keywords": "Photography, Web Design, Visual Interface"
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org"
+    "@type": "Person"
+    "@id": "#jhontolentino"
+    "@name": "Jhon Tolentino"
+    "@email": "hey@karlai.com"
+    "@url": "https://karlai.ca"
+  }
+</script>
