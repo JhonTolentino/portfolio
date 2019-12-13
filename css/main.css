@@ -15,3 +15,11 @@ html {
 .current {
   color: var(--color-primary);
 }
+
+.border {
+  border: solid .5em var(--color-text);
+}
+
+.embed {
+  overflow: visible;
+}
