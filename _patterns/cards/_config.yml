@@ -20,16 +20,16 @@ patterns:
         media_library:
           config:
             multiple: true
-      - name: link
-        type: string
-        example: "./back-to-school.html"
+      - type: url
+        example: "/back-to-school.html/"
   image-card:
     title: "image-card"
     description: |
       Default image card, this is the pattern that will be used when show casing work throughout the website.
     fields:
       - name: "images"
-        type: "object"
+        widget: image
         example: "/images/b2s-sketch.jpg"
-          source: "/images/"
-          type: ""
+        media_library:
+          config:
+            multiple: true
