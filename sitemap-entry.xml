@@ -1,0 +1,9 @@
+<url>
+  <loc>https://github.com/JhonTolentino/portfolio{{site.basurl}}{{include.entry.url}}</loc>
+  {% if include.entry.changefreq %}
+  <changefreq>{{include.entry.change.freq}}</changefreq>
+  {% endif %}
+  {% if include.entry.priority %}
+    <priority>{{include.entry.priority}}</priority>
+  {% endif %}
+</url>
