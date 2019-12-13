@@ -21,7 +21,7 @@ patterns:
           config:
             multiple: true
       - type: url
-        example: "/back-to-school.html/"
+        example: "/back-to-school/"
   image-card:
     title: "image-card"
     description: |
